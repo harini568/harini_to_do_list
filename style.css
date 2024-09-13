@@ -1,0 +1,21 @@
+#task-list {
+	list-style: none;
+	padding: 6px;
+	margin: 6px;
+    height: 200px;
+    width: 200px;
+}
+#task-list li {
+	background-color: #38bfd7;
+	padding: 3px;
+    height: 20px;
+    width: 70px;
+	border-bottom: 1px solid #111010;
+}
+#task-list li:last-child {
+	border-bottom:hsl(0, 13%, 94%);
+}
+#task-list li.completed {
+	text-decoration:line-through;
+	color: hsl(0, 76%, 13%);
+}
